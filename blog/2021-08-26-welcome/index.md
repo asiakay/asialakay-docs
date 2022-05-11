@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
+authors: ak
 tags: [facebook, hello, docusaurus]
 ---
 
@@ -18,7 +18,10 @@ The blog post date can be extracted from filenames, such as:
 
 A blog post folder can be convenient to co-locate blog post images:
 
+![ASIALAKAY App Mobile View](./asialakay_mobile_app.jpg)
+
 ![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+
 
 The blog supports tags as well!
 
