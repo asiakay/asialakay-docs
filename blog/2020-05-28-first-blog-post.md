@@ -1,7 +1,6 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-author: ak
 tags: [hola, docusaurus]
 ---
 

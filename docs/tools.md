@@ -10,7 +10,16 @@ tags: [tools]
 
 # Tools #
 
+- [Figma](https://www.figma.com/s)
 
-[Online SVG to ICO Converter](https://convertio.co/)
+- [Glassmorphism Generator](https://hype4.academy/tools/glassmorphism-generator)
+
+- [React Framework to Build Conversational Apps](https://botonic.io/)
+
+- [Docusaurus.io/docs/playground](https://docusaurus.io/docs/playground)
+
+- [Online SVG to ICO Converter](https://convertio.co/)
+
+- [Onine HEIC to JPEG Converter](https://heictojpg.com/)
 
 [hello test](./hello.md)
