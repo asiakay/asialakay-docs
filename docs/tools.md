@@ -9,8 +9,13 @@ tags: [tools]
 ---
 
 # Tools #
+- [Padlet allows users to make and share content with others](https://padlet.com/referrals/asialakay)
+
+- [Hemingwayapp](https://hemingwayapp.com/)
 
 - [Figma](https://www.figma.com/s)
+
+- [CSS Gradient Maker](https://cssgradient.io/)
 
 - [Glassmorphism Generator](https://hype4.academy/tools/glassmorphism-generator)
 
