@@ -27,4 +27,4 @@ tags: [yaml, docusaurus, markdown, documentation]
 
 
 REFERENCES
-- [Front Matter](index.md/blog/yaml-front-matter)
+- [Front Matter](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-front-matter)
