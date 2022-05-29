@@ -1,11 +1,7 @@
 ---
 slug: yaml-front-matter
 title: Front Matter - Blogging like a hacker
-authors:
-  - name: Asia Lakay
-    title: First born of Michelle
-    url: https://asialakay.net
-    image_url: https://avatars.githubusercontent.com/u/66960776?v=4
+authors: asiak
 tags: [documentation, ci/cd, markdown, yaml]
 ---
 

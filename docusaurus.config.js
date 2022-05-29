@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'asialakay docs',
-  tagline: 'science, tech, art, engineering & music for all',
+  tagline: 'ASIALAKAY.NET Reference Docs & Tutorials',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

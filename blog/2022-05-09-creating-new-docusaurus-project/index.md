@@ -1,7 +1,7 @@
 ---
 slug: create-community-meta-app
 title: Creating a Community Newsletter/App for the Realworld with the Metaverse
-authors: ak
+authors: asiak
 tags: [facebook, hello, docusaurus, metaverse, community]
 ---
 

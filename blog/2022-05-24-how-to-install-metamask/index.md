@@ -1,7 +1,7 @@
 ---
-slug: installing metamask
+slug: installing-metamask
 title: How to Install Metamask
-authors: ak
+authors: asiak
 tags: [Web3, NFTs, Metaverse]
 ---
 

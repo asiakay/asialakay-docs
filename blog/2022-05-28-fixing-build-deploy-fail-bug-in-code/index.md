@@ -1,13 +1,13 @@
 ---
-slug: greetings
-title: Documenting Build Fail and Bug Fix
+slug: build-fail-bug-fix
+title: Bug Fix 1 - Build Fail, Broken Link
 authors:
   - name: Asia Lakay
     title: Content Creator / Software Engineer
     url: https://asialakay.net
     image_url: https://avatars.githubusercontent.com/u/66960776?v=4
 
-tags: [greetings]
+tags: [bug fix, deployment, ci/cd]
 ---
 
 
@@ -29,7 +29,11 @@ Bug is not fixed by pointing to resolved
 Here's how the bug was fixed. The link was changed to a point to info about Front Matter within the docusaurus developer reference documentation.
 ![Correct Link Address](./correct-link-address.jpg)
 
+Gitub Deployment Status
+![Github Deployment Status](./github-active.jpg)
 
+Vercel Production Build Status (Ready = SUCCESS)
+![Vercel Production Status](./vercel-build.jpg)
 
 
 
