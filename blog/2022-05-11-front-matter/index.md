@@ -14,7 +14,7 @@ Markdown documents have metadata at the top called [Front Matter](https://jekyll
 
 The front matter must be the ** first thing **  in the file and must take the form of valid YAML ** set between triple-dashed lines**. 
 
-```YAML
+```
 ---
 slug: yaml-front-matter-blog-organization
 layout: post
@@ -27,4 +27,4 @@ tags: [yaml, docusaurus, markdown, documentation]
 
 
 REFERENCES
-- [Front Matter](index.md/blog#front-matter)
+- [Front Matter](index.md/blog/yaml-front-matter)
