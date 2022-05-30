@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'asialakay docs',
-  tagline: 'ASIALAKAY.NET Reference Docs & Tutorials',
+  title: 'ASIALAKAY.NET // Dev',
+  tagline: 'Dev Documentation, Reference, & Tutorials',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'asialakay docs',
+        title: 'ASIALAKAY.NET // Dev',
         logo: {
           alt: 'asialakay docs logo',
           src: 'img/asialakay-docs-logo.svg',
@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Asialakay.net // Dev - Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

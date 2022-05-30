@@ -1,5 +1,6 @@
 ---
 slug: ether-matic-testnet-faucet
+authors: asiak
 title: Where to get test ether
 tags: [web3, crypto, dev]
 ---
