@@ -8,7 +8,7 @@ tags: [Web3, NFTs, Metaverse]
 1. Make a component to hold the Youtube Iframe Embed Code
 
 ![signupappfilestructure.jpg](./signupappfilestructure.jpg)
-
+<!--truncate-->
 
 
 REFERENCES

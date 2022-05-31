@@ -1,0 +1,42 @@
+---
+slug: buildspace-web3-development
+authors: asiak
+title: Web3 Dev with Buildspace Project Community
+tags: [web3, dev, projects]
+---
+
+✍️ writing custom smart contracts
+💰 building a "connect wallet" flow
+🚀 deploying to Ethereum (Polygon? Algorand? Solana?)
+
+Let's do this!
+
+<!--truncate-->
+
+
+### Get your local Ethereum networking running ###
+
+1. We're going to write a smart contract.
+
+2. Our smart contract will be deployed to the blockchain
+
+3. We're going to build a client website
+
+
+
+### ✨ The magic of Hardhat ### 
+- lets us set up a local Ethereum Dev enviromnent
+- provides test ETH for free dev testing 
+- provides dummy accounts to work with 
+- provides a vehicle for compiling smart contracts quickly for test deployment to a blockchain
+
+The difference between blockchains and develoment servers are that blockchains are public record.  
+
+Requirements to run Hardhat
+- node/npm: checked to make sure node was installed by running the command `node -v` in VSCode's integrated CLI terminal. This command returned v16.15.0, the version that is currently installed. 
+
+```Bash
+(base) @mbp asialakay-docs %node -v
+v16.15.0
+```
+If not installed or command not found, find [instructions for installing node.js here](https://hardhat.org/tutorial/setting-up-the-environment). Also, for newer releases of the node.js runtime, click here

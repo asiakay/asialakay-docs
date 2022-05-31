@@ -1,7 +1,7 @@
 ---
 slug: ether-matic-testnet-faucet
 authors: asiak
-title: Where to get test ether
+title: Where to Get Test Eth for Dev Testing
 tags: [web3, crypto, dev]
 ---
 
@@ -14,6 +14,7 @@ https://matic.supply/ // Returned "Network error" on 5-26-22
 
 https://faucet.polygon.technology/
 
+<!--truncate-->
 
 Instructions: https://medium.com/@timpark0807/how-to-deploy-a-smart-contract-to-polygon-mainnet-d11d60bff7e7
 
