@@ -6,7 +6,9 @@ tags: [react, dev, ux/ui]
 ---
 ![Internationalization Test 1](./i18next_test1.jpg)
 
-I've been interested foreign languages for as long as I can remember. One summer, I decided to take an Arabic course at the city community college. Our professor described what it meant to greet a person in the person's native language. She called it a bridge and a way to build a positive connection. This resonated. Naturally, when I learned that there was a way to do this with code in React applications, I started to learn this functionality to add it to a User Story for Asialakay.net. This way, when visitors arrived to the site, they might be greeted in their native language. 
+I've been interested foreign languages for as long as I can remember. One summer, I took an Arabic course at the city community college. Our professor, a dynamic and young native speaker from Morocco, shared her perspective of what it meant to greet a person in the person's native language. She called it a **bridge and a way to build a positive connection**. This resonated. 
+
+Naturally, when I learned that there was a way to do this with code in React applications, I started to learn this functionality to add it to a User Story for Asialakay.net. This way, when visitors arrived to the site, they might be greeted in their native language. 
 
 ![Top 10 Languages Used Online](./top-10-internet-languages.jpg)
 [source: internetworldstats.com](https://www.internetworldstats.com/stats7.htm)
