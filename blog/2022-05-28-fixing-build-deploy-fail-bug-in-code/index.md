@@ -7,6 +7,7 @@ tags: [bug fix, deployment, ci/cd]
 
 
 ![Build Failed Status](./build-failed.jpeg)
+<!--truncate-->
 
 ![Build Fail](./build-fail.jpeg)
 

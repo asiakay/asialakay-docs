@@ -5,38 +5,51 @@ title: Creating a Feature Branch in Github
 tags: [github, dev, ci/cd, devops, remote collaboration]
 ---
 
-At this stage in my development as a software engineer, I'm happy to confess that I'm developing an immunity to impostor syndrome.
+At this stage in my development as a software engineer, I'm happy to confess that I've built up some antibodies to defend against a once paralyzing case of impostor syndrome. While there is always more to learn, it's been encouraging to achieve small wins that remind me of how far I've come since embarking on the challenging journey of becoming an 80% self-taught software engineer. 
  
-The main things that immunity to impostor syndrome has taught me are that 1) there is always going to be more to learn, 2) google is my bestie, and 3) having clear intentions and working towards specific skills has increased my confidence and ability to recognize what needs more practice as I prepare to transition into dev work with a project team. 
+<!--truncate-->
+
+Here are some of the main things that immune defense to impostor syndrome has helped me to realize and appreciate.
+
+ - 1) There is always going to be more to learn because the community is so creative -  consistently coming out with tools and sources of inspiration.
+ - 3) Having clear intentions and working towards specific skills to complete projects has increased my confidence and ability to recognize what needs more practice as I prepare to transition into professional dev work with a project team. 
+ - 3) As long as I have an idea of what problem I want to solve, I can always ask a person or a Google search box.
  
-However, since I've become more assertive in seeking a software engineering position, I realize that I've gotten used to working in a silo of my own commits and pushes to the main branch. 
+However, since I have recently become more assertive in seeking a software engineering position, I realize that I've gotten used to working in a silo of my own commits and pushes to the main branch. 
  
 This post is all about **creating a feature branch independent of the main before integrating the new feature into the main branch**. 
 
-By the end the outcomes will be: 
+By the end of this post, the following outcomes will have been achieved: 
 
-Creation of a new feature branch to review i18next integration named "Internationalization"
+- Creation of a new feature branch to review i18next integration named "Internationalization"
 
-Understanding of the benefits of working with version controlled feature branches on Github including code review, environment preview, 
+- A clearer and more practical understanding of benefits and what steps are required to iterate over changes more efficiently using version controlled feature branches on Github.
 
-With that said, let's begin. Feel free to follow along!
+- Production of documentation that might serve as a reference for best practices when developing software for code review, dev environment preview, and maintainence of a more organized codebase.  
+
+With that said, let's begin. I hope this might provide as much value for the reader as it has provided for me as the writer. Feel free to follow along!
 
 1. If needed, clone the project. Type in the terminal: 
 
-syntax to clone via https:
+(syntax to clone via https:)
+
 `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
 
-code to clone the actual repository we're working with
+(code to clone the repository I'm currently working with:)
+
 `git clone https://github.com/asiakay/signup-app.git`
 
-2. Create branch with your feature: 
-- example command syntax to enter:
+2. Create, name and build the branch to hold the new feature: 
+
+(example command syntax to enter:)
+
 `git checkout -b feature_name`
 
-- actual command entered: 
+(command entered to create my new branch:)
+
 `git checkout -b internationalization`
 
-returns: 
+This terminal command returns... 
 
 ```Bash
 (base) @mbp signup-app %git checkout -b internationalization
@@ -81,11 +94,15 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 3. Write code/ add untracked new files to staging area
 
-- Since the new files and demo internationalization code have already been created, the next step is to add the untracked files with command `git add .` 
+- Since the new files and demo internationalization code have already been created, the next step is to add the untracked files with command:
 
-- A habit that has formed in my workflow is to check the status of the staged files after adding. I type `git status`.
+ `git add .` 
 
-which returns: 
+- One habit that has become automatic in my workflow is to check the status of the staged files immediatly after adding them to the staging area.
+
+I type `git status` after every `git add .`. 
+
+This output a list of new and modified files waiting in the staging area to be commmited and pushed: 
 
 ```Bash
 (base) @mbp signup-app %git status
@@ -128,7 +145,8 @@ This returns:
  create mode 100644 src/services/i18n.js
 (base) @mbp signup-app %   
 ```
-- Next, typed `git push` to push to githib. But, this returns:
+
+Next, I typed `git push` to push to githib. But, this returns:
 
 ```Bash 
 fatal: The current branch internationalization has no upstream branch.
@@ -140,7 +158,7 @@ To push the current branch and set the remote as upstream, use
 ```
 This command flag `--set-upstream` gives permission to set the default remote branch for the current local branch.
 
-To check the remote server, I typed `git remote -v` 
+To check the remote server, I typed `git remote -v`. 
 
 This returned, 
 

@@ -7,6 +7,7 @@ tags: [documentation, ci/cd, markdown, yaml]
 
 
 Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/).
+<!--truncate-->
 
 The front matter must be the ** first thing **  in the file and must take the form of valid YAML ** set between triple-dashed lines**. 
 

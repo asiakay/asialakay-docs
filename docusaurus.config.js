@@ -27,24 +27,42 @@ const config = {
     locales: ['en'],
   },
 
+
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/asiakay/asialakay-docs',
+          
         },
-        blog: {
+        blog: { // Serve the blog at the site's root https://docusaurus.io/docs/blog#blog-only-mode
+          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+          `https://github.com/asiakay/asialakay-docs/edit/main/${blogDirPath}/${blogPath}`,
+          path: 'blog',
+          routeBasePath: '/',  
+          blogTitle: 'Asialakay.net // Dev',
+          blogDescription: "Developer Reference, Tools & Documentation",
+          postsPerPage: 8,
           showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Asialakay.net `,
+          },
+          blogSidebarTitle: 'All Posts',
+          blogSidebarCount: 8,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/asiakay/asialakay-docs',
 
         },
         theme: {
