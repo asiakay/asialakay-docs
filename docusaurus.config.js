@@ -42,8 +42,11 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/asiakay/asialakay-docs',
+          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+          `https://github.com/asiakay/asialakay-docs/edit/main/${blogDirPath}/${blogPath}`,
+          blogTagsListComponent: '@theme/BlogTagsListPage',
+          blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
+          tagsBasePath: 'tags',
 
         },
        
@@ -60,6 +63,13 @@ const config = {
           alt: 'asialakay docs logo',
           src: 'img/asialakay-docs-logo.svg',
         },
+/*         algolia: {
+        // The application ID provided by Algolia
+          appId:'',
+        // Public API key: it is safe to commit it
+          apiKey: 'YOUR_SEARCH_API_KEY',
+          indexName: '',
+        }, */
         items: [
           // below was removed/commented out to allow blog to serve as landing page
 /*           {
@@ -73,6 +83,12 @@ const config = {
             href: 'https://github.com/asiakay/asialakay-docs',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            href: 'https://www.asialakay.net',
+            label: 'Asialakay.net',
+            position: 'right',
+
           },
         ],
       },
@@ -108,6 +124,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Asialakay.net',
+                href: 'https://www.asialakay.net',
+              },
               {
                 label: 'Blog',
                 to: '/',

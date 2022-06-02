@@ -1,11 +1,13 @@
 ---
 slug: set-blog-as-landing-page
 authors: asiak
-title: Setting Blog as Landing Page with Docusaurus
-tags: [github, dev, ci/cd, devops, ux/ui]
+title: Bug Fix 2 - Setting Docusaurus Blog as Landing Page
+tags: [github, dev, ci/cd, devops, ux/ui, bug fix, deployment]
 ---
 
 With the exception of the logo, blog title, and tagline, here is what the landing page looked like out the box. 
+
+<!--truncate-->
 
 ![Landing Page Before](./landing-page-before.jpg)
 
