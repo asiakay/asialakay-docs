@@ -79,7 +79,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
+          /* {
             title: 'Docs',
             items: [
               {
@@ -87,7 +87,7 @@ const config = {
                 to: '/docs/intro',
               },
             ],
-          },
+          }, */
           {
             title: 'Community',
             items: [
