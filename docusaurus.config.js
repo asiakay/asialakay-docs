@@ -29,17 +29,16 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/asiakay/asialakay-docs',
+        debug: undefined,
+        theme: {
+          customCss: [require.resolve('./src/css/custom.css')],
         },
+        docs: false,  
         blog: {
+          routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -47,9 +46,7 @@ const config = {
             'https://github.com/asiakay/asialakay-docs',
 
         },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+       
       }),
     ],
   ],
@@ -64,12 +61,13 @@ const config = {
           src: 'img/asialakay-docs-logo.svg',
         },
         items: [
-          {
+          // below was removed/commented out to allow blog to serve as landing page
+/*           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
-          },
+          }, */
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/asiakay/asialakay-docs',
