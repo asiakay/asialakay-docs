@@ -89,5 +89,8 @@ Steps attempted to solve the problem:
 
 ![Removed Doc Reference](./removed-doc-reference.jpg)
 
-The last step resolved the bug and allowed the page to load from the root.
+The last step resolved the bug and allowed the page to load from the root on localhost.
 
+However, on deployment...
+
+![Broken links on deployment](./broken-links-on-deloyment.jpg)
