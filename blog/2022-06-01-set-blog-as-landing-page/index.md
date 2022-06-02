@@ -9,12 +9,12 @@ With the exception of the logo, blog title, and tagline, here is what the landin
 
 ![Landing Page Before](./landing-page-before.jpg)
 
-For the purpose of this integration, the preferred option was to allowing users to land directly on the blog. 
+For the purpose of this integration, the preferred option was allowing users to land directly on the blog. 
 
 
 Steps:
 
-Created a new branch for development. TO do this, I typed the following command into the terminal:
+Created a new branch for development. To do this, I typed the following command into the terminal:
 
 `git checkout -b land-on-blog`
 
@@ -98,4 +98,8 @@ However, on deployment...
 Attempts to fix: 
 
 - changed /blog to blog in config (did not resolve bug)
-- noticed `to` key in navbar led to `/blog`, removed forward slash
+- noticed `to` key in navbar led to `/blog`, changed to `/` to match routeBasePath (fixed the bug)
+
+Final result 
+
+![Landing on blog](./landing-on-blog.gif)
