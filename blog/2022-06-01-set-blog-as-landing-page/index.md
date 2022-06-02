@@ -94,3 +94,8 @@ The last step resolved the bug and allowed the page to load from the root on loc
 However, on deployment...
 
 ![Broken links on deployment](./broken-links-on-deloyment.jpg)
+
+Attempts to fix: 
+
+- changed /blog to blog in config (did not resolve bug)
+- noticed `to` key in navbar led to `/blog`, removed forward slash
