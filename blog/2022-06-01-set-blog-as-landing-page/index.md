@@ -103,5 +103,8 @@ Attempts to fix:
 - noticed `to` key in navbar led to `/blog`, changed to `/` to match routeBasePath (fixed the bug)
 
 Final result 
+BEFORE: 
+![Landing on DOCS](./landing-on-blog.gif)
 
-![Landing on blog](./landing-on-blog.gif)
+AFTER: 
+![Landing on BLOG](./BlogLandingPageAfter.gif)

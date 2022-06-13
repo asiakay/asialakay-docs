@@ -40,13 +40,14 @@ const config = {
         blog: {
           routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
           `https://github.com/asiakay/asialakay-docs/edit/main/${blogDirPath}/${blogPath}`,
           blogTagsListComponent: '@theme/BlogTagsListPage',
           blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
-          tagsBasePath: 'tags',
+          
 
         },
        
