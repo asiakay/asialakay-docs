@@ -53,3 +53,17 @@ Account balance:  155049158423230419
 WavePortal address:  0x484124904Cc0d4712f58A60C804382b895a584A4
 (base) @mbp my-wave-portal %
 https://rinkeby.etherscan.io/address/0x484124904Cc0d4712f58A60C804382b895a584A4
+
+- 6/16/2022
+(base) @mbp my-wave-portal %npx hardhat run scripts/deploy.js --network rinkeby                      
+
+[x] WavePortal address:  0xBE76d8D9efE36944760145D263591Dd077856c76
+
+[x] update contractAddress in frontend
+
+[x] copy abi file data from artifacts>WavePortal.json to utils>WavePortal.json
+
+- 6/16/22
+(base) @mbp my-wave-portal %npx hardhat run scripts/deploy.js --network rinkeby
+Compiled 2 Solidity files successfully
+WavePortal address:  0x5d94d98e9aAE67a7852c7A0AECe62d62b8f8F7c4
