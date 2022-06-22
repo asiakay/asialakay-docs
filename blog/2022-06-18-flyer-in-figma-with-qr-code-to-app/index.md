@@ -75,6 +75,8 @@ Technical Tools
 - [Chakra UI](https://chakra-ui.com/)
 - [How to format dates in ReactJS](https://codesource.io/how-to-format-dates-in-reactjs/)
 - [QR Code & Barcode Scanner](https://apps.apple.com/us/app/qr-code-barcode-scanner/id1048473097)
+- [GitHub: code hosting platform for version control and collaboration](https://github.com/) 
+- [Vercel: platform for frontend frameworks and static sites](https://vercel.com/docs)
 
 ---
 ## Project Development Log ## 
@@ -104,6 +106,7 @@ Technical Tools
         - ~~`npm i @chakra-ui/button`~~
     - Added current date to application with Moment Library
     `npm install --save moment` [package info](https://www.npmjs.com/package/moment)
+    - Uploaded to GitHub Repo
     - Deployed web application to Vercel for hosting
     - Created qr code linking to web application with the [QR Code & Barcode Scanner](https://apps.apple.com/us/app/qr-code-barcode-scanner/id1048473097) app on iphone.
     - Added qr code to flyer  
