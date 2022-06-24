@@ -8,6 +8,8 @@ WavePortal address:  0xf5F5AdB9909A28BF881FFE55eB5A24cF39Bf8806
 
 Contract Address: [WavePortal: 0xf5F5AdB9909A28BF881FFE55eB5A24cF39Bf8806](https://rinkeby.etherscan.io/address/0xf5F5AdB9909A28BF881FFE55eB5A24cF39Bf8806)
 
+<!--truncate-->
+
 [x] 1. We need to deploy it again.
 
 [x] 2. We need to update the contract address on our frontend.

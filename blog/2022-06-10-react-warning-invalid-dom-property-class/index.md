@@ -8,6 +8,7 @@ tags: [react, dev, ux/ui]
 Console Debugging Clues: 
 
 ![](./warning-invalid-dom-property-class%402x.jpg)
+<!--truncate-->
 
 ![](./invalid-dom-class.jpg)
 

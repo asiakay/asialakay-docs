@@ -1,7 +1,7 @@
 ---
 slug: flyer-in-figma-with-qr-code-to-app
 authors: asiak
-title: UX/UI Software Development Project for Earth Day Everyday Bottle Drive Fundraiser
+title: UX/UI Software Development with O.I.C.E. Framework for Earth Day Everyday Bottle Drive Fundraiser Project
 tags: [ux/ui, dev, projects, react, figma]
 ---
 ## Intro ##
@@ -9,7 +9,7 @@ tags: [ux/ui, dev, projects, react, figma]
 About a year ago, I came across a problem solving framework for solving JavaScript coding challenges. It's pronounced oy - chee and uses the letters O.I.C.E. to help remember the framework by using an acronym.  
 
 Traditionally, the framework's acronym stands for the following:
-
+<!--truncate-->
 - O: outcome 
 - I: input
 - C: conditions/concerns/complexities 

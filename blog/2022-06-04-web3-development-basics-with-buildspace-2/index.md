@@ -19,6 +19,7 @@ In this part, we will be
 - connecting a wallet to the web app
 calling the deployed smart contract from the web app 
 
+<!--truncate-->
 
 Closed the terminal running the local blockchain network
 
