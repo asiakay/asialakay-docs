@@ -8,6 +8,7 @@ tags: [web3, dev, projects, solidity]
 So, I've completed the [buildspace.so](https://buildspace.so/) "Building a Web3 app with Solidity" project. Whoop de whoop!!!
 
 They rewarded me with a [cyuteee NFT](https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/20022?utm_source=buildspace.so&utm_medium=buildspace_profile) on OpenSea! (pictured below) 
+<!--truncate-->
 
 ![Saiph NFT](./render.png)
 

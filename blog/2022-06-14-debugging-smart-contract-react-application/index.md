@@ -9,7 +9,9 @@ tags: [react, dev, solidity, web3, ethersjs]
 
 Hey! 86% finished but I need help to get unstuck. Maybe another set of eyes can help me figure out what's missing here. 
 
-As expected, the testnet shows that the smart contract, WavePortal.sol 
+As expected, the testnet shows that the smart contract, `WavePortal.sol` ...
+<!--truncate-->
+
 - Has been deployed   
 - Has been funded 
 - Has the functionality to store waves and messages
