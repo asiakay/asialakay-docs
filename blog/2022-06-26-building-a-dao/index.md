@@ -2,7 +2,7 @@
 slug: building-a-dao-with-JavaScript-1
 authors: asiak
 title: Building a DAO (Part One)
-tags: [web3, javascript, blockchain, buildspace, thirdweb]
+tags: [web3, javascript, blockchain]
 ---
 
 # Building a DAO #
