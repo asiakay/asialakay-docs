@@ -147,7 +147,7 @@ ALCHEMY_API_URL=YOUR_ALCHEMY_API_URL
 ```
 
 The `PRIVATE_KEY` was exported from MetaMask. `WALLET_ADDRESS` is my MetaMask wallet address. 
-Getting the `ALCHEMY_API_URL` came from creating a new app on [Alchemy.com](alchemy.com) - making sure to select Ethereum and Rinksby Testnet. 
+Getting the `ALCHEMY_API_URL` came from creating a new app on [Alchemy.com](https://alchemy.com) - making sure to select Ethereum and Rinksby Testnet. 
 
 Next, Initialize SDK
 
