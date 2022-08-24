@@ -639,7 +639,7 @@ what is delegating a governance token?
 ::: 
 
 REFERENCES: 
-- [Buildspace.so](Buildspace.so)
+- [Buildspace.so](http://Buildspace.so)
 - [Tokenomics](https://www.google.com/search?q=tokenomics?utm_source=buildspace.so&utm_medium=buildspace_project)
 - [thirdWeb Governance Contract Example](https://github.com/thirdweb-dev/contracts/blob/main/contracts/vote/VoteERC20.sol?utm_source=buildspace.so&utm_medium=buildspace_project)
 - [OpenZeppelin Governance Contract Primitives](https://docs.openzeppelin.com/contracts/4.x/api/governance?utm_source=buildspace.so&utm_medium=buildspace_project)
