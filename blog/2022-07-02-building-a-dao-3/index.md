@@ -9,6 +9,7 @@ In [Part One](/blog/2022-06-26-building-a-dao/index.md), ...
 
 In [Part Two](/blog/2022-06-29-building-a-dao-with-javascript-2/index.md) ... 
 
+
 In this part, I've customized the [frontend of the dApp](https://upcy-dao.vercel.app/). 
 
 I started with `public/index.html`
