@@ -23,6 +23,7 @@
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "core-js": "^3.24.1",
+    "docusaurus": "^1.14.7",
     "hast-util-is-element": "^1.1.0",
     "i18next": "^21.8.5",
     "i18next-browser-languagedetector": "^6.1.4",
