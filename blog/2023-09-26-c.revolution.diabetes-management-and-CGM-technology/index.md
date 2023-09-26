@@ -1,6 +1,8 @@
 # Revolutionizing Diabetes Management: A Personal Journey Towards Innovation and Patient-Centric Care - Pt 4
 
-## Diabetes Ease Pro Integrated Project Plan and MVP Roadmap
+Continue from [Part 3](/2023/09/26/diabetes-management-and-CGM-technology-p3) In preparation for the Techstars Startup Weekend #Boston
+
+## Diabetes Ease Pro Proof of Concept(POC): Integrated Project Plan and MVP Roadmap
 
 ## Introduction
 

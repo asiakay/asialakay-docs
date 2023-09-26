@@ -1,6 +1,6 @@
 # Revolutionizing Diabetes Management: A Personal Journey Towards Innovation and Patient-Centric Care - Pt 2.
 
-Continued from [Part 1](2023-09-20-diabetes-management-and-CGM-technology.md) In preparation for the Techstars Startup Weekend #Boston
+Continued from [Part 1](/2023/09/27/revolution.diabetes-management-and-CGM-technology-p4) In preparation for the Techstars Startup Weekend #Boston
 
 ## Lean Canvas: Diabetes Ease Pro
 
@@ -40,3 +40,5 @@ _Integration with iCGMs and AID_
 _Comparative Analysis of Glucose Information Accuracy_
 
 - Diabetes Ease Pro leverages AI for real-time glucose predictions and personalized recommendations(grocery list, meal plan, diabetes community support), ensuring accuracy and reliability in diabetes management.
+
+Continue to [Proof of Concept](2023-09-26-3.revolution.diabetes-management-and-CGM-technology) In preparation for the Techstars Startup Weekend #Boston

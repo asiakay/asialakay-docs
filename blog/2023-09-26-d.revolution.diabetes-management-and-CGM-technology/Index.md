@@ -1,5 +1,7 @@
 # Revolutionizing Diabetes Management: A Personal Journey Towards Innovation and Patient-Centric Care - Pt 3.
 
+Continued from [Part 2](2023-09-20-diabetes-management-and-CGM-technology.md) In preparation for the Techstars Startup Weekend #Boston
+
 ## MVP Development Roadmap: Diabetes Ease Pro
 
 ## Phase 1: Project Initiation and Planning (Duration: 2 months)
