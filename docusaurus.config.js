@@ -36,7 +36,9 @@ const config = {
         theme: {
           customCss: [require.resolve('./src/css/custom.css')],
         },
-        docs: false,  
+        docs: {
+
+        },  
         blog: {
           routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
@@ -79,6 +81,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           }, */
+          /* {to: '/docs', label: "Docs", position: 'left' }, */
           {to: '/', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/asiakay/asialakay-docs',
